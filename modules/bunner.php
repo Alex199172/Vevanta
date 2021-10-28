@@ -16,7 +16,7 @@
             <div class="carousel-caption d-none d-md-block text-light">
               <div class="fs40 fnt-bld">Метка третьего слайда</div>
               <p class="carousel__subtitle fs28 fnt-med">Некоторый репрезентативный заполнитель</p>
-                <button class="btn text-light">Заказать звонок</button>
+                <button class="btn text-light" data-bs-toggle="modal" data-bs-target="#staticBack">Заказать звонок</button>
             </div>
           </div>
         </div>

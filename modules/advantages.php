@@ -1,5 +1,5 @@
 <section>
-  <div class="text-center  text-dark fnt-med fs40 mt-4">
+  <div class="text-center  text-dark fnt-med mt-4 fs22 fs38@s sf46@m">
     За что клиенты выбирают наши дома
   </div>
 <div #swiperRef="" class="swiper mySwiper">

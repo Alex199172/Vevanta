@@ -11,114 +11,177 @@
   <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-<header>
-  <div class="container mt-3 mb-3">
-    <div class="row">
-      <div class="col">
-        <a href="" class="header__link">
-          <img class="header__logo" src="assets/img/logo.png" alt="logo">
-        </a>
-      </div>
-      <div class="col-7 d-flex d-none d-xl-block">
-        <div class="d-flex flex-column m-auto">
-          <div class="row d-flex">
-            <ul class="header__items mb-2 row d-flex align-items-center">
-              <li class="header__item col-auto">
-                <i class="icon-phone"></i>
-                <a href="" class="header__link">
-                  <strong>+7 (3452) 39-65-71</strong>
-                </a>
-              </li>
-              <li class="header__item col-auto">
-                <a href="" class="header__link">
-                  <strong class="header__span">
-                    Звоните с 09:00 до 20:00
-                  </strong>
-                </a>
-                <li class="header__item col-auto p-0 me-2">
-                  <a href="" class="header__link">
-                    <i class="icon-you fs22 cl-dark-blue"></i>
-                  </a>
-                </li>
-                <li class="header__item col-auto p-0 me-2">
-                  <a href="" class="header__link">
-                    <i class="icon-inst fs22 cl-dark-blue"></i>
-                  </a>
-                </li>
-                <li class="header__item col-auto p-0">
-                  <a href="" class="header__link">
-                    <i class="icon-vk fs22 cl-dark-blue"></i>
-                  </a>
-                </li>
-            </ul>
-          </div>
+  <header>
+    <div class="container mt-3 mb-3">
+      <div class="row">
 
-          <div class="row d-flex">
-            <ul class="header__items col-auto m-auto d-flex row p-0">
+        <div class="row align-items-center d-block d-md-none d-flex justify-content: space-between">
+            <div class="col">
+              <a href="" class="header__link">
+                <img class="header__logo" src="assets/img/logo2.png" alt="logo">
+              </a>
+            </div>
+
+
+        <div class="col text-end pe-0">
+          <a href="tel:+73452396571" class="header__link">
+            <img class="header__logo-call" src="assets/img/call.png" alt="logo">
+          </a>
+
+          <button class="bg-white" type="button" data-bs-toggle="offcanvas"
+           data-bs-target="#offcanvasRight"
+           aria-controls="offcanvasRight">
+             <img src="https://img.icons8.com/material-sharp/24/000000/menu--v1.png"/>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+          <img class="mb-2" src="assets/img/logo.png" alt="logo">
+        <h5 class="text-center" id="offcanvasRightLabel">
+          Компания состоит в СРО
+          г. Тюмень, ул. Червишевский тракт, д. 3, этаж 2
+            <br><strong class="offer">+7 (3452) 39-65-71</strong>
+        </h5>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="text-start">
+          <li><a class="dropdown-item" href="#projects">Популярные проекты</a></li>
+          <li><a class="dropdown-item" href="#objects">Недавние проекты</a></li>
+          <li><a class="dropdown-item" href="#content">Этапы работ</a></li>
+          <li><a class="dropdown-item" href="https://vevanta.com/uslugi">Услуги</a></li>
+          <li><a class="dropdown-item" href="https://vevanta.com/tehnologii">Технологии</a></li>
+          <li><a class="dropdown-item" href="https://vevanta.com/o-kompanii">О нас</a></li>
+          <li><a class="dropdown-item" href="https://vevanta.com/kontakty">Контакты</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="tel:+73452396571">Заказать звонок</a></li>
+        </ul>
+      </div>
+      <ul class="clients__items text-center">
+
+        <li class="mt-2">
+          <a href="https://mail.yandex.ru/u2709/?uid=184382912#inbox" class="clients__link">
+              <i class="icon-email"></i>
+              vevanta@yandex.ru<br>
+              (Для клиентов)
+          </a>
+        </li>
+        <li class="mt-2">
+          <a href="https://mail.yandex.ru/u2709/?uid=184382912#inbox" class="clients__link">
+              <i class="icon-email"></i>
+              company@vevanta.com<br>
+            (Коммерческие предложения)
+          </a>
+        </li>
+      </ul>
+      <ul class="d-flex justify-content-center">
+        <li class="header__item p-0 me-2">
+          <a href="https://www.youtube.com/channel/UCRytU0cHs-IZN0dsBZW6Shw" class="header__link">
+            <i class="icon-you fs22 cl-dark-blue"></i>
+          </a>
+        </li>
+        <li class="header__item p-0 me-2">
+          <a href="https://www.instagram.com/vevanta72/?roistat_visit=941954" class="header__link">
+            <i class="icon-inst fs22 cl-dark-blue"></i>
+          </a>
+        </li>
+        <li class="header__item p-0 me-2">
+          <a href="https://vk.com/stroitelstvo_domov_i_kottedjey?roistat_visit=941954" class="header__link">
+            <i class="icon-vk fs22 cl-dark-blue"></i>
+          </a>
+        </li>
+      </ul>
+
+    </div>
+
+        </div>
+        </div>
+
+        <div class="col d-none d-md-block">
+          <a href="" class="header__link">
+            <img class="header__logo" src="assets/img/logo.png" alt="logo">
+          </a>
+        </div>
+        <div class="col-7 d-flex d-none d-xl-block">
+          <div class="d-flex flex-column m-auto">
+            <div class="row d-flex">
+              <ul class="header__items mb-2 row d-flex align-items-center">
                 <li class="header__item col-auto">
-                  <a href="" class="header__link">
-                    Проекты
+                  <i class="icon-phone"></i>
+                  <a href="tel:+73452396571" class="header__link">
+                    <strong>+7 (3452) 39-65-71</strong>
                   </a>
                 </li>
                 <li class="header__item col-auto">
-                  <a href="" class="header__link">
-                    Услуги
-                  </a>
-                </li>
-                <li class="header__item col-auto">
-                  <a href="" class="header__link">
-                    Построенные дома
-                  </a>
-                </li>
-                <li class="header__item col-auto">
-                  <a href="" class="header__link">
-                    Технологии
-                  </a>
-                </li>
-                <li class="header__item col-auto">
-                  <a href="" class="header__link">
-                    О нас
-                  </a>
-                </li>
-                <li class="header__item col-auto">
-                  <a href="" class="header__link">
-                    Контакты
-                  </a>
-                </li>
-              <ul>
+                    <strong class="header__span">
+                      Звоните с 09:00 до 20:00
+                    </strong>
+                  <li class="header__item col-auto p-0 me-2">
+                    <a href="https://www.youtube.com/channel/UCRytU0cHs-IZN0dsBZW6Shw" class="header__link">
+                      <i class="icon-you fs22 cl-dark-blue"></i>
+                    </a>
+                  </li>
+                  <li class="header__item col-auto p-0 me-2">
+                    <a href="https://www.instagram.com/vevanta72/?roistat_visit=941954" class="header__link">
+                      <i class="icon-inst fs22 cl-dark-blue"></i>
+                    </a>
+                  </li>
+                  <li class="header__item col-auto p-0">
+                    <a href="https://vk.com/stroitelstvo_domov_i_kottedjey?roistat_visit=941954" class="header__link">
+                      <i class="icon-vk fs22 cl-dark-blue"></i>
+                    </a>
+                  </li>
+              </ul>
+            </div>
+
+            <div class="row d-flex">
+              <ul class="header__items col-auto m-auto d-flex row ms-0 p-0">
+                  <li class="header__item col-auto">
+                    <a href="#projects" class="header__link">
+                      Популярные
+                    </a>
+                  </li>
+                  <li class="header__item col-auto">
+                    <a href="#objects" class="header__link">
+                      Недавние
+                    </a>
+                  </li>
+                  <li class="header__item col-auto">
+                    <a href="#content" class="header__link">
+                      Этапы работ
+                    </a>
+                  </li>
+                  <li class="header__item col-auto">
+                    <a href="https://vevanta.com/uslugi" class="header__link">
+                      Услуги
+                    </a>
+                  </li>
+                  <li class="header__item col-auto">
+                    <a href="https://vevanta.com/o-kompanii" class="header__link">
+                      О нас
+                    </a>
+                  </li>
+                  <li class="header__item col-auto">
+                    <a href="https://vevanta.com/kontakty" class="header__link">
+                      Контакты
+                    </a>
+                  </li>
+                <ul>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col align-self-center d-flex justify-content-end">
-        <button class="btn text-light p-2">Заказать звонок</button>
+        <div class="col align-self-center d-flex justify-content-end">
+          <button class="btn d-none d-md-block text-light p-2"  data-bs-toggle="modal" data-bs-target="#staticBack">Заказать звонок</button>
+        </div>
       </div>
     </div>
-  </div>
-</header>
+  </header>
 
-<?php include 'modules/bunner.php' ?>
-
-
-    <section class="section__offer">
-      <div class="offer__block container pt-5 pb-5">
-        <div class="row d-flex align-items-center">
-          <div class="col-9 fs40 fnt-bld text-light">
-            Хотите жить в новом Зеленом квартале<br>
-            <strong class="offer">Vevanta?</strong> Оставьте заявку
-          </div>
-          <div class="col">
-            <button class="offer__btn">
-              <i class="icon-arrow-medium-right cl-dark-blue fs24"></i>
-            </button>
-          </div>
-        </div>
-      </div>
-    </section>
-
+    <?php include 'modules/bunner.php' ?>
+    <?php include 'modules/button.php'?>
     <?php include 'modules/projects.php'?>
     <?php include 'modules/form.php'?>
     <?php include 'modules/advantages.php'?>
     <?php include 'modules/objects.php'?>
+    <?php include 'modules/modal.php'?>
     <?php include 'modules/content.php'?>
     <?php include 'modules/footer.php'?>
 
@@ -134,7 +197,7 @@
   var swiper = new Swiper(".mySwiper", {
         slidesPerView: 5,
         centeredSlides: true,
-        spaceBetween: 30,
+        spaceBetween: 10,
         loop: true,
 
       pagination: {

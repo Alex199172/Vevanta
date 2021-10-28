@@ -1,6 +1,6 @@
 <section class="objects">
   <div class="container mb-5 mt-5">
-    <div class="text-center text-dark fnt-med fs40 mt-4 mb-5">
+    <div id="content" class="text-center text-dark fnt-med fs22 mt-4 mb-5 fs38@s sf46@m">
       Этапы работы
     </div>
     <div class="row">
