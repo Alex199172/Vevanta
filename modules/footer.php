@@ -2,7 +2,6 @@
  <footer class="footer p-3">
    <div class="footer__container container">
      <div class="row">
-
        <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2">
          <ul class="project__items p-0">
                <li class="text-uppercase fnt-med color__green">

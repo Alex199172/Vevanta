@@ -33,8 +33,9 @@
            aria-controls="offcanvasRight">
              <img src="https://img.icons8.com/material-sharp/24/000000/menu--v1.png"/>
           </button>
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+          <div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
       <div class="offcanvas-header">
+          <button type="button" class="button__click btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Закрыть"></button>
           <img class="mb-2" src="assets/img/logo.png" alt="logo">
         <h5 class="text-center" id="offcanvasRightLabel">
           Компания состоит в СРО
@@ -44,7 +45,7 @@
       </div>
       <div class="offcanvas-body">
         <ul class="text-start">
-          <li><a class="dropdown-item" href="#projects">Популярные проекты</a></li>
+          <li><a class="dropdown-item btn-5" href="#projects">Популярные проекты</a></li>
           <li><a class="dropdown-item" href="#objects">Недавние проекты</a></li>
           <li><a class="dropdown-item" href="#content">Этапы работ</a></li>
           <li><a class="dropdown-item" href="https://vevanta.com/uslugi">Услуги</a></li>
@@ -169,7 +170,7 @@
           </div>
         </div>
         <div class="col align-self-center d-flex justify-content-end">
-          <button class="btn d-none d-md-block text-light p-2"  data-bs-toggle="modal" data-bs-target="#staticBack">Заказать звонок</button>
+          <button class="btn d-none d-md-block text-light p-2" data-bs-toggle="modal" data-bs-target="#staticBack">Заказать звонок</button>
         </div>
       </div>
     </div>
@@ -197,8 +198,37 @@
   var swiper = new Swiper(".mySwiper", {
         slidesPerView: 5,
         centeredSlides: true,
-        spaceBetween: 10,
+        spaceBetween: 15,
         loop: true,
+        breakpoints: {
+   // when window width is >= 320px
+   320: {
+     slidesPerView: 2,
+     spaceBetween: 10,
+     loop: true
+
+   },
+   // when window width is >= 480px
+   480: {
+     slidesPerView: 3,
+     spaceBetween: 10,
+     loop: true
+   },
+   // when window width is >= 640px
+   640: {
+     slidesPerView: 4,
+     spaceBetween: 10,
+     loop: true
+
+   },
+
+   1200: {
+     slidesPerView: 6,
+     spaceBetween: 10,
+     loop: true
+
+   }
+ },
 
       pagination: {
           el: ".swiper-pagination",
@@ -210,7 +240,9 @@
           prevEl: ".swiper-button-prev",
         },
       });
+
   </script>
+  <script src="/assets/js/index.js"></script>
 
 </body>
 </html>

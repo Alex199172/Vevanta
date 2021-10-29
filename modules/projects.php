@@ -122,7 +122,7 @@
                   <div class="mt-1 fs18 fs24@s">3</div>
                 </div>
                 <div class="col-auto me-4 pe-0 pe-0">
-                  <div class="text-secondary fs12 fs16@">Габариты</div>
+                  <div class="text-secondary fs12 fs16@s">Габариты</div>
                   <div class="mt-1 fs18 fs24@s">14x12</div>
                 </div>
                 <div class="col-auto">

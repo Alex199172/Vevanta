@@ -1,5 +1,5 @@
 <section class="objects bg-light">
-  <div class="container mb-3 mt-5 text-center ">
+  <div class="container mb-3 pt-3 text-center ">
     <div id="objects" class="text-center  text-dark fnt-med fs22 mt-4 mb-5 fs38@s sf46@m">
       Недавние объекты
     </div>
